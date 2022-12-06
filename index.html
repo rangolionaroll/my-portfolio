@@ -12,102 +12,67 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="nav-placeholder">
 
-				<div class="top">
+		</div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="./images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Rangoli Mittal</h1>
-							<p>Game Designer and Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="" id="projects-link" style="pointer-events: none;"><span class="icon solid fa-th">Projects</span></a>
-									<ul>
-										<li><a href="grid.html" id="contact-link"><span class="icon solid fa-gamepad">Rutgers GRID</span></a></li>
-										<li><a href="projects.html" id="contact-link"><span class="icon solid fa-box-open">Independent</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="volunteer-link" style="pointer-events: none;"><span class="icon solid fa-hands-helping">Volunteering</span></a>
-									<ul>
-										<li><a href="seeingeye.html" id="contact-link"><span class="icon solid fa-dog">The Seeing Eye</span></a></li>
-										<li><a href="singforhope.html" id="contact-link"><span class="icon solid fa-brush">Sing For Hope</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="hobbies-link" style="pointer-events: none;"><span class="icon solid fa-boxes">Hobbies</span></a>
-									<ul>
-										<li><a href="photography.html" id="contact-link"><span class="icon solid fa-camera-retro">Photography</span></a></li>
-										<li><a href="crochet.html" id="contact-link"><span class="icon solid fa-mitten">Crochet</span></a></li>
-									</ul>
-								</li>
-								<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/rangolionaroll/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/rangoli-mittal/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:ranmittal717@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-				</div>
-
-			</div>
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Rangoli</strong>, a game designer and developer with a passion for art, storytelling and technology.</h2>
-								<p><br />
-								<br /></p>
-							</header>
+					<header>
+						<h2 class="alt">Hi! I'm <strong>Rangoli</strong>, a game designer and developer with a passion for art, storytelling and technology.</h2>
+						<p>
+							<br />
+							<br />
+						</p>
+					</header>
 
-							<footer>
-								<a href="grid.html" class="button scrolly">Check out my recent projects!</a>
-							</footer>
+					<footer>
+						<a href="grid.html" class="button scrolly">Check out my recent projects!</a>
+					</footer>
 
-						</div>
-					</section>
+				</div>
+			</section>
 
-			</div>
+		</div>
 
-			<!-- Footer -->
-			<div id="footer">
+		<!-- Footer -->
+		<div id="footer">
 
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Rangoli Mittal
-					<script>document.write(new Date().getFullYear())</script> All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

@@ -12,420 +12,389 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="nav-placeholder">
 
-				<div class="top">
+		</div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="./images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Rangoli Mittal</h1>
-							<p>Game Designer and Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="" id="projects-link" style="pointer-events: none;"><span class="icon solid fa-th">Projects</span></a>
-									<ul>
-										<li><a href="grid.html" id="contact-link"><span class="icon solid fa-gamepad">Rutgers GRID</span></a></li>
-										<li><a href="projects.html" id="contact-link"><span class="icon solid fa-box-open">Independent</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="volunteer-link" style="pointer-events: none;"><span class="icon solid fa-hands-helping">Volunteering</span></a>
-									<ul>
-										<li><a href="seeingeye.html" id="contact-link"><span class="icon solid fa-dog">The Seeing Eye</span></a></li>
-										<li><a href="singforhope.html" id="contact-link"><span class="icon solid fa-brush">Sing For Hope</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="hobbies-link" style="pointer-events: none;"><span class="icon solid fa-boxes">Hobbies</span></a>
-									<ul>
-										<li><a href="photography.html" id="contact-link"><span class="icon solid fa-camera-retro">Photography</span></a></li>
-										<li><a href="crochet.html" id="contact-link"><span class="icon solid fa-mitten">Crochet</span></a></li>
-									</ul>
-								</li>
-								<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/rangolionaroll/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/rangoli-mittal/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:ranmittal717@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-							<header>
-								<p>As a member of the Rutgers University Seeing Eye Puppy Raising Club for 3 years, 
-								I was able to help raise many future guide dogs.  My involvement in the program 
-								included doing basic obedience training, taking the puppies to classes and events, 
-								and exposing them to a variety of new environments. </p>
-							</header>
-							<footer>
-								<a href="#Andy" class="button scrolly">Read about some of my experiences below!</a>
-							</footer>
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+					<header>
+						<p>
+							As a member of the Rutgers University Seeing Eye Puppy Raising Club for 3 years,
+							I was able to help raise many future guide dogs.  My involvement in the program
+							included doing basic obedience training, taking the puppies to classes and events,
+							and exposing them to a variety of new environments.
+						</p>
+					</header>
+					<footer>
+						<a href="#Andy" class="button scrolly">Read about some of my experiences below!</a>
+					</footer>
+				</div>
+			</section>
+
+			<!-- Andy -->
+			<section id="Andy" class="two">
+				<div class="container">
+
+					<header>
+						<h2>Andy</h2>
+					</header>
+
+					<p>
+						Andy was a German shepherd that I started sitting when he was 3 months old.
+						I was able to take him to my Linear Signals and Systems, and 2D Animation
+						classes on a weekly basis.  Being able to sit him regularly, I was able to take
+						notice of things that made him anxious, and slowly expose him to more stimulating
+						environments.  We went to events like corn mazes, basketball games, movies,
+						marathons and many more.  I was even able to take him to NYC for a weekend and
+						get him used to an environment with constant noise.
+					</p>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-1.jpg" alt="A German shepherd sits in between two pink paper mache poodles." /></a>
+								<header>
+									<h3>Andy at an indoor walkathon</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-2.jpg" alt="A German shepherd sits wearing red booties and a harness." /></a>
+								<header>
+									<h3>Andy sitting during his Town Walk</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-10.jpg" alt="A polaroid shows a girl and a German shepherd.  The girl is holding an umbrella and both are wearing traditional Japanese clothing." /></a>
+								<header>
+									<h3>Andy and I at one of my club events</h3>
+								</header>
+							</article>
 						</div>
-					</section>
-
-				<!-- Andy -->
-					<section id="Andy" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Andy</h2>
-							</header>
-
-							<p>Andy was a German shepherd that I started sitting when he was 3 months old.  
-							I was able to take him to my Linear Signals and Systems, and 2D Animation 
-							classes on a weekly basis.  Being able to sit him regularly, I was able to take 
-							notice of things that made him anxious, and slowly expose him to more stimulating 
-							environments.  We went to events like corn mazes, basketball games, movies, 
-							marathons and many more.  I was even able to take him to NYC for a weekend and 
-							get him used to an environment with constant noise.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-1.jpg" alt="A German shepherd sits in between two pink paper mache poodles." /></a>
-										<header>
-											<h3>Andy at an indoor walkathon</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-2.jpg" alt="A German shepherd sits wearing red booties and a harness." /></a>
-										<header>
-											<h3>Andy sitting during his Town Walk</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-10.jpg" alt="A polaroid shows a girl and a German shepherd.  The girl is holding an umbrella and both are wearing traditional Japanese clothing." /></a>
-										<header>
-											<h3>Andy and I at one of my club events</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-3.jpg" alt="A German shepherd wearing a red bowtie is in focus with a building slightly blurred in the background. " /></a>
-										<header>
-											<h3>Andy posing in front of a Rutgers building</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-4.jpg" alt="A young German shepherd sits in front of a girl wearing a black coat and purple headphones. Her arms are around the German shepherd." /></a>
-										<header>
-											<h3>Andy and I at Woofstock</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-9.jpg" alt="A German shepherd is laying on the floor asleep.  Beneath him a stuffed toy and a shoe peek out." /></a>
-										<header>
-											<h3>Andy asleep during one of my classes</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-7.jpg" alt="A German shepherd wearing a harness and booties guides a person across an intersection." /></a>
-										<header>
-											<h3>Andy in action during his Town Walk</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-5.jpg" alt="5 girls wearing black and a German shepherd pose for the camera." /></a>
-										<header>
-											<h3>Andy at my sorority initiation</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-6.jpg" alt="A silhouette of the top of a dogs head are in teh foreground.  The inside of a sports stadium is in the background." /></a>
-										<header>
-											<h3>Andy at a basketball game</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Andy/andy-8.jpg" alt="A girl in a blue dress sits in between two German shepherds." /></a>
-										<header>
-											<h3>Andy, Johann and I at a mural by WTC</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-3.jpg" alt="A German shepherd wearing a red bowtie is in focus with a building slightly blurred in the background. " /></a>
+								<header>
+									<h3>Andy posing in front of a Rutgers building</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-4.jpg" alt="A young German shepherd sits in front of a girl wearing a black coat and purple headphones. Her arms are around the German shepherd." /></a>
+								<header>
+									<h3>Andy and I at Woofstock</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-9.jpg" alt="A German shepherd is laying on the floor asleep.  Beneath him a stuffed toy and a shoe peek out." /></a>
+								<header>
+									<h3>Andy asleep during one of my classes</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-7.jpg" alt="A German shepherd wearing a harness and booties guides a person across an intersection." /></a>
+								<header>
+									<h3>Andy in action during his Town Walk</h3>
+								</header>
+							</article>
 						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="Johann" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Johann</h2>
-							</header>
-
-							<p>Johann was a German shepherd that I started sitting when 
-							he was 2 months old. I also took him to classes, work and 
-							various events weekly. One of the events I took him to was Yule Log,
-							which I was an organizer for. He kept up with my pace 
-							during the event without drawing attention to himself.  He also accompanied 
-							me to NYC, where we rode the subway, went to restaurants, and walked
-							around the city.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo3.jpg" alt="A group of 10 girls and a German shepherd pose in front of a wall with string lights." /></a>
-										<header>
-											<h3>Johann and the organizers of Yule Log</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo8.jpg" alt="A German shepherd puppy has his mouth and paws on a large purple ball." /></a>
-										<header>
-											<h3>Johann playing with a ball at 2 months old</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo2.jpg" alt="A girl sits on a gray chair with a German shepherd on her lap. Next to them is an old arcade cabinet." /></a>
-										<header>
-											<h3>Johann and I at work</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo1.jpg" alt="Two German shepherds sit in front of a bridge." /></a>
-										<header>
-											<h3>Johann and Andy in front of Bayonne Bridge</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo9.jpg" alt="A German shepherd wearing a green bandana is shown." /></a>
-										<header>
-											<h3>Johann with a Seeing Eye bandana</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo4.jpg" alt="A girl and a German shepherd wearing a green shirt are next to each other." /></a>
-										<header>
-											<h3>Johann and I at Big Chill</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo5.jpg" alt="A German shepherd wearing a green vest is seated.  In the background is a large white mall area." /></a>
-										<header>
-											<h3>Johann at The Oculus in NYC</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Johann/jo6.jpg" alt="A girl is grabbing a squash from a trellis and a German shepherd is seated in front of her." /></a>
-										<header>
-											<h3>Johann helping me with gardening</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-5.jpg" alt="5 girls wearing black and a German shepherd pose for the camera." /></a>
+								<header>
+									<h3>Andy at my sorority initiation</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-6.jpg" alt="A silhouette of the top of a dogs head are in teh foreground.  The inside of a sports stadium is in the background." /></a>
+								<header>
+									<h3>Andy at a basketball game</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Andy/andy-8.jpg" alt="A girl in a blue dress sits in between two German shepherds." /></a>
+								<header>
+									<h3>Andy, Johann and I at a mural by WTC</h3>
+								</header>
+							</article>
 						</div>
-					</section>
+					</div>
 
-				<!-- Portfolio -->
-					<section id="Wyatt" class="two">
-						<div class="container">
+				</div>
+			</section>
 
-							<header>
-								<h2>Wyatt</h2>
-							</header>
+			<!-- Portfolio -->
+			<section id="Johann" class="two">
+				<div class="container">
 
-							<p>Wyatt was the first dog that I sat as part of RUSEPRC. 
-							I started watching him when he was about 5 months old and 
-							took him to classes, club activities and local events. He 
-							was also the first dog I watched overnight.</p>
+					<header>
+						<h2>Johann</h2>
+					</header>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt1.jpg" alt="A smiling German shepherd is pictures.  Behind him the NYC skyline is shown." /></a>
-										<header>
-											<h3>Wyatt at Liberty State Park</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt5.jpg" alt="The corner of a filled notebook is shown.  On the ground underneath, a German shepherd is laying down." /></a>
-										<header>
-											<h3>Wyatt resting during a lecture</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt4.jpeg" alt="A German shepherd laying on a lawn sticks his tongue out.  Next to him is a hedgehog toy." /></a>
-										<header>
-											<h3>Wyatt at the engineering lawn</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt3.jpg" alt="Pictured are 5 Renaissance fair actors, a girl and a German shepherd." /></a>
-										<header>
-											<h3>Wyatt and I at a Renaissance fair</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt8.jpg" alt="A German shepherd is laying and smiling on a dog bed." /></a>
-										<header>
-											<h3>Wyatt laying on his dog bed</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt2.jpg" alt="A girl is kneeling next to a German shepherd wearing a blue shirt." /></a>
-										<header>
-											<h3>Wyatt and I at Big Chill</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/Wyatt/wyatt6.jpg" alt="A German shepherd sits on top of autumn leaves." /></a>
-										<header>
-											<h3>Wyatt surrounded by leaves</h3>
-										</header>
-									</article>
-								</div>
-							</div>
+					<p>
+						Johann was a German shepherd that I started sitting when
+						he was 2 months old. I also took him to classes, work and
+						various events weekly. One of the events I took him to was Yule Log,
+						which I was an organizer for. He kept up with my pace
+						during the event without drawing attention to himself.  He also accompanied
+						me to NYC, where we rode the subway, went to restaurants, and walked
+						around the city.
+					</p>
 
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo3.jpg" alt="A group of 10 girls and a German shepherd pose in front of a wall with string lights." /></a>
+								<header>
+									<h3>Johann and the organizers of Yule Log</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo8.jpg" alt="A German shepherd puppy has his mouth and paws on a large purple ball." /></a>
+								<header>
+									<h3>Johann playing with a ball at 2 months old</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo2.jpg" alt="A girl sits on a gray chair with a German shepherd on her lap. Next to them is an old arcade cabinet." /></a>
+								<header>
+									<h3>Johann and I at work</h3>
+								</header>
+							</article>
 						</div>
-					</section>
-
-					<!-- Portfolio -->
-					<section id="More" class="two">
-						<div class="container">
-
-							<header>
-								<h2>More</h2>
-							</header>
-
-							<p>These are some of the other dogs I was a sitter for.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/More/bday.jpg" alt="A girl wearing a flower crown and a golden retriever are sitting on the floor." /></a>
-										<header>
-											<h3>Galaxy with me at work</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Doug.jpg" alt="A black lab wearing a green bandana is shown." /></a>
-										<header>
-											<h3>Doug</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Galaxy.jpg" alt="A young golden retriever stands in the snow." /></a>
-										<header>
-											<h3>Galaxy</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Haley.jpeg" alt="A smiling girl sits on a chair, holding a happy golden lab in her arms." /></a>
-										<header>
-											<h3>Haley</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Gypsy.jpg" alt="A German shepherd with her tongue out is shown.  In the background trees and water are present. " /></a>
-										<header>
-											<h3>Gypsy</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Jesse.jpg" alt="A golden lab sits and looks up at the camera.  The ground is filled with red, yellow, brown and orange leaves. " /></a>
-										<header>
-											<h3>Jesse</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Gandalf.jpg" alt="A golden retriever lays on his back.  In between his paws is a stuffed animal deer." /></a>
-										<header>
-											<h3>Gandalf</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Jay.jpg" alt="A young black lab has his paw on the nose of an adult German shepherd." /></a>
-										<header>
-											<h3>Jay and Andy</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Missy.jpg" alt="A young golden retriever with a green flower on her collar is shown." /></a>
-										<header>
-											<h3>Missy</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/office.jpg" alt="A polaroid shows the door to an office open.  Inside the office, a girl is sitting, working on a computer and a dog is sleeping underneath her seat." /></a>
-										<header>
-											<h3>Haley with me at work</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="./images/More/Koda.jpg" alt="A golden lab lays in the grass with her tongue out." /></a>
-										<header>
-											<h3>Koda</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo1.jpg" alt="Two German shepherds sit in front of a bridge." /></a>
+								<header>
+									<h3>Johann and Andy in front of Bayonne Bridge</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo9.jpg" alt="A German shepherd wearing a green bandana is shown." /></a>
+								<header>
+									<h3>Johann with a Seeing Eye bandana</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo4.jpg" alt="A girl and a German shepherd wearing a green shirt are next to each other." /></a>
+								<header>
+									<h3>Johann and I at Big Chill</h3>
+								</header>
+							</article>
 						</div>
-					</section>
-			</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo5.jpg" alt="A German shepherd wearing a green vest is seated.  In the background is a large white mall area." /></a>
+								<header>
+									<h3>Johann at The Oculus in NYC</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Johann/jo6.jpg" alt="A girl is grabbing a squash from a trellis and a German shepherd is seated in front of her." /></a>
+								<header>
+									<h3>Johann helping me with gardening</h3>
+								</header>
+							</article>
+						</div>
+					</div>
 
-			<!-- Footer -->
-			<div id="footer">
+				</div>
+			</section>
 
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Rangoli Mittal
-					<script>document.write(new Date().getFullYear())</script> All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+			<!-- Portfolio -->
+			<section id="Wyatt" class="two">
+				<div class="container">
 
-			</div>
+					<header>
+						<h2>Wyatt</h2>
+					</header>
+
+					<p>
+						Wyatt was the first dog that I sat as part of RUSEPRC.
+						I started watching him when he was about 5 months old and
+						took him to classes, club activities and local events. He
+						was also the first dog I watched overnight.
+					</p>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt1.jpg" alt="A smiling German shepherd is pictures.  Behind him the NYC skyline is shown." /></a>
+								<header>
+									<h3>Wyatt at Liberty State Park</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt5.jpg" alt="The corner of a filled notebook is shown.  On the ground underneath, a German shepherd is laying down." /></a>
+								<header>
+									<h3>Wyatt resting during a lecture</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt4.jpeg" alt="A German shepherd laying on a lawn sticks his tongue out.  Next to him is a hedgehog toy." /></a>
+								<header>
+									<h3>Wyatt at the engineering lawn</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt3.jpg" alt="Pictured are 5 Renaissance fair actors, a girl and a German shepherd." /></a>
+								<header>
+									<h3>Wyatt and I at a Renaissance fair</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt8.jpg" alt="A German shepherd is laying and smiling on a dog bed." /></a>
+								<header>
+									<h3>Wyatt laying on his dog bed</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt2.jpg" alt="A girl is kneeling next to a German shepherd wearing a blue shirt." /></a>
+								<header>
+									<h3>Wyatt and I at Big Chill</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/Wyatt/wyatt6.jpg" alt="A German shepherd sits on top of autumn leaves." /></a>
+								<header>
+									<h3>Wyatt surrounded by leaves</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="More" class="two">
+				<div class="container">
+
+					<header>
+						<h2>More</h2>
+					</header>
+
+					<p>These are some of the other dogs I was a sitter for.</p>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/More/bday.jpg" alt="A girl wearing a flower crown and a golden retriever are sitting on the floor." /></a>
+								<header>
+									<h3>Galaxy with me at work</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Doug.jpg" alt="A black lab wearing a green bandana is shown." /></a>
+								<header>
+									<h3>Doug</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Galaxy.jpg" alt="A young golden retriever stands in the snow." /></a>
+								<header>
+									<h3>Galaxy</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Haley.jpeg" alt="A smiling girl sits on a chair, holding a happy golden lab in her arms." /></a>
+								<header>
+									<h3>Haley</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Gypsy.jpg" alt="A German shepherd with her tongue out is shown.  In the background trees and water are present. " /></a>
+								<header>
+									<h3>Gypsy</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Jesse.jpg" alt="A golden lab sits and looks up at the camera.  The ground is filled with red, yellow, brown and orange leaves. " /></a>
+								<header>
+									<h3>Jesse</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Gandalf.jpg" alt="A golden retriever lays on his back.  In between his paws is a stuffed animal deer." /></a>
+								<header>
+									<h3>Gandalf</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Jay.jpg" alt="A young black lab has his paw on the nose of an adult German shepherd." /></a>
+								<header>
+									<h3>Jay and Andy</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Missy.jpg" alt="A young golden retriever with a green flower on her collar is shown." /></a>
+								<header>
+									<h3>Missy</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/office.jpg" alt="A polaroid shows the door to an office open.  Inside the office, a girl is sitting, working on a computer and a dog is sleeping underneath her seat." /></a>
+								<header>
+									<h3>Haley with me at work</h3>
+								</header>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="./images/More/Koda.jpg" alt="A golden lab lays in the grass with her tongue out." /></a>
+								<header>
+									<h3>Koda</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

@@ -12,453 +12,421 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="nav-placeholder">
 
-				<div class="top">
+		</div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="./images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Rangoli Mittal</h1>
-							<p>Game Designer and Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="" id="projects-link" style="pointer-events: none;"><span class="icon solid fa-th">Projects</span></a>
-									<ul>
-										<li><a href="grid.html" id="contact-link"><span class="icon solid fa-gamepad">Rutgers GRID</span></a></li>
-										<li><a href="projects.html" id="contact-link"><span class="icon solid fa-box-open">Independent</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="volunteer-link" style="pointer-events: none;"><span class="icon solid fa-hands-helping">Volunteering</span></a>
-									<ul>
-										<li><a href="seeingeye.html" id="contact-link"><span class="icon solid fa-dog">The Seeing Eye</span></a></li>
-										<li><a href="singforhope.html" id="contact-link"><span class="icon solid fa-brush">Sing For Hope</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="hobbies-link" style="pointer-events: none;"><span class="icon solid fa-boxes">Hobbies</span></a>
-									<ul>
-										<li><a href="photography.html" id="contact-link"><span class="icon solid fa-camera-retro">Photography</span></a></li>
-										<li><a href="crochet.html" id="contact-link"><span class="icon solid fa-mitten">Crochet</span></a></li>
-									</ul>
-								</li>
-								<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/rangolionaroll/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/rangoli-mittal/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:ranmittal717@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
 
-							<header>
-								<p><strong>Kindergarten Nutrition Games</strong><br/><br/>
-								This project is a series of 2D games designed for the
-								Rutgers Culture of Health School Program. </br>Currently 3 of 7 
-								expected games have been developed.
-								<br/><br/> Roles: Project Lead, Developer, Designer</p>
-							</header>
+					<header>
+						<p>
+							<strong>Kindergarten Nutrition Games</strong><br /><br />
+							This project is a series of 2D games designed for the
+							Rutgers Culture of Health School Program. </br>Currently 3 of 7
+							expected games have been developed.
+							<br /><br /> Roles: Project Lead, Developer, Designer
+						</p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="projects" class="two">
+				<div class="container">
+					<header>
+						<p>Introduction</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								This project consists of 7 games that each cover a Nutrition topic and
+								have been designed for a kindergarten age group.  Currently,
+								three of these games have been developed and shipped. As project
+								lead for these three games, I have seen them through, from scoping to delivery.
+								While each of these games had individual lesson objectives, overall they had the
+								goal of understanding how well a student was able to grasp the content and what
+								ideas they struggled with. Read about the individual games below.
+							</p>
 						</div>
-					</section>
+					</div>
 
-				<!-- Portfolio -->
-					<section id="projects" class="two">
-						<div class="container">
-							<header>
-								<p>Introduction</p>
-							</header>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a href="nutrition.html#dairy" class="image fit"><img src="images/nutrition/001.jpg" alt="" /></a>
+								<header>
+									<h3>Skelly's Search for Dairy</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a href="nutrition.html#plant" class="image fit"><img src="images/nutrition/002.jpg" alt="" /></a>
+								<header>
+									<h3>Let's Learn About Plants</h3>
+								</header>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a href="nutrition.html#myplate" class="image fit"><img src="images/nutrition/003.jpg" alt="" /></a>
+								<header>
+									<h3>Gill's Diner: MyPlate Food Groups</h3>
+								</header>
+							</article>
+						</div>
+					</div>
+					</br>
 
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									This project consists of 7 games that each cover a Nutrition topic and 
-									have been designed for a kindergarten age group.  Currently,
-									three of these games have been developed and shipped. As project 
-									lead for these three games, I have seen them through, from scoping to delivery. 
-									While each of these games had individual lesson objectives, overall they had the 
-									goal of understanding how well a student was able to grasp the content and what
-									ideas they struggled with. Read about the individual games below.
-									</p>
-								</div>
-							</div>
+					<header id="dairy">
+						<p>Skelly's Search for Dairy</p>
+					</header>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="nutrition.html#dairy" class="image fit"><img src="images/nutrition/001.jpg" alt="" /></a>
-										<header>
-											<h3>Skelly's Search for Dairy</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="nutrition.html#plant" class="image fit"><img src="images/nutrition/002.jpg" alt="" /></a>
-										<header>
-											<h3>Let's Learn About Plants</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="nutrition.html#myplate" class="image fit"><img src="images/nutrition/003.jpg" alt="" /></a>
-										<header>
-											<h3>Gill's Diner: MyPlate Food Groups</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-							</br>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/n01.jpg" alt="" /></a>
+							</article>
+							<video class="image fit" controls>
+								<source src="images/nutrition/n02.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-8 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								For this game another team member came up with the concept.  This
+								included the two options for each question, the meter that counts
+								progress, the skeleton mascot and the story of the skelly needing
+								to power up to go play.
+								</br></br>
 
-							<header id="dairy">
-								<p>Skelly's Search for Dairy</p>
-							</header>
+								I worked on taking the concept and completing it. I mapped out all the game
+								flows to make sure no pieces were missing as shown on the left and then used
+								that storyboard to collaborate with the artist and sound designer to organize
+								the art and sounds.
+								</br></br>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/n01.jpg" alt="" /></a>
-									</article>
-									<video class="image fit" controls>
-										<source src="images/nutrition/n02.mp4" type="video/mp4"></a>
-									</video>
-								</div>
-								<div class="col-8 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									For this game another team member came up with the concept.  This 
-									included the two options for each question, the meter that counts 
-									progress, the skeleton mascot and the story of the skelly needing 
-									to power up to go play.  
-									</br></br>
-									
-									I worked on taking the concept and completing it. I mapped out all the game 
-									flows to make sure no pieces were missing as shown on the left and then used 
-									that storyboard to collaborate with the artist and sound designer to organize 
-									the art and sounds.
-									</br></br>
+								For example, the original
+								storyboard showed the question and then showed a large coin on the
+								screen to indicate they had gotten the question right.  I completed this
+								flow by making the coin appear over the correct answer and fly to the
+								skeleton meter.  It then became a snack that filled up the meter.
+							</p>
+						</div>
+					</div>
+					</br>
 
-									For example, the original
-									storyboard showed the question and then showed a large coin on the 
-									screen to indicate they had gotten the question right.  I completed this 
-									flow by making the coin appear over the correct answer and fly to the
-									skeleton meter.  It then became a snack that filled up the meter.
-									</p>
-								</div>
-							</div>
-							</br>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Along with completing the game flows, an important part of this project 
-									was an assessment of the students playing the game.  I decided to accomplish
-									this in two ways.
-									</br></br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The first was through a certificate activity.  With a certificate at the end 
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Along with completing the game flows, an important part of this project
+								was an assessment of the students playing the game.  I decided to accomplish
+								this in two ways.
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The first was through a certificate activity.  With a certificate at the end
 									of the game, the teachers could assess whether a student had completed the game.
 									It also served as a fun takeaway for the students, which they could save and print.
 									Rather than a plain certificate, I decided that it would be cool to add an activity
 									to customize it.  For this game, that was coloring in Skelly and also decorating
 									with different dairy products.  The storyboard and the UI that I created are shown below.
-									</li>
-									</br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The second was through custom events during the game.  I designed and developed 
-									the framework of the game to be able to collect information for things such as 
+								</li>
+								</br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The second was through custom events during the game.  I designed and developed
+									the framework of the game to be able to collect information for things such as
 									how long a child took per question, to get a better idea of how the game is being
-									played and what questions children struggled with most.</li>
-									</br>
-									</ul>
-								</div>
-							</div>
+									played and what questions children struggled with most.
+								</li>
+								</br>
+							</ul>
+						</div>
+					</div>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/n03.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/n04.gif" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/n05.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							</br>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/n03.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/n04.gif" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/n05.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
 
-							<header id="plant">
-								<p>Let's Learn About Plants</p>
-							</header>
+					<header id="plant">
+						<p>Let's Learn About Plants</p>
+					</header>
 
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/p01.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/p02.jpg" alt="" /></a>
-									</article>
-									<video class="image fit" controls>
-										<source src="images/nutrition/p03.mp4" type="video/mp4"></a>
-									</video>
-								</div>
-								<div class="col-8 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									For this game I came up with the original concept.  One of the storyboard 
-									images is shown.  The original concept had two portions, a 
-									storybook and a quiz.
-									With the storybook, the children would move along the story by interacting with 
-									environmental elements such as the sun.  We decided to shorten the game and 
-									take away the first activity.  
-									</br></br>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/p01.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/p02.jpg" alt="" /></a>
+							</article>
+							<video class="image fit" controls>
+								<source src="images/nutrition/p03.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-8 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								For this game I came up with the original concept.  One of the storyboard
+								images is shown.  The original concept had two portions, a
+								storybook and a quiz.
+								With the storybook, the children would move along the story by interacting with
+								environmental elements such as the sun.  We decided to shorten the game and
+								take away the first activity.
+								</br></br>
 
-									For the quiz section, the idea was that a food element would be introduced, and
-									that the child would have to identify which element it is, on a generic plant.
-									They would do this by clicking that part on the plant.  After working with 
-									the designer, we found that for parts that are scattered on the plant, this might
-									be a bit difficult, so we added tags that the player could interact with.  A sample 
-									of our brainstorming is shown.
-									</br></br>
-									
-									To keep the introduction interesting as the parts of a plant are being introduced, 
-									we kept the buildup element but did that with the sound design.  With each plant 
-									part, a new instrument is introduced to the soundtrack and then later in the quiz 
-									section those same sounds are used to reinforce each plant part.  An example of this
-									is shown in the video.
-									</br></br>
-									</p>
-								</div>
-							</div>
-							</br>
+								For the quiz section, the idea was that a food element would be introduced, and
+								that the child would have to identify which element it is, on a generic plant.
+								They would do this by clicking that part on the plant.  After working with
+								the designer, we found that for parts that are scattered on the plant, this might
+								be a bit difficult, so we added tags that the player could interact with.  A sample
+								of our brainstorming is shown.
+								</br></br>
 
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Along with the inital concept, similarly to the first game, an important
-									part of this game was the assessment.  This was also accomplished in two 
-									ways.
-									</br></br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The first was through the certificate activity. Like the previous game, 
-									the certificate served both to assess completion and as a fun takeaway for 
+								To keep the introduction interesting as the parts of a plant are being introduced,
+								we kept the buildup element but did that with the sound design.  With each plant
+								part, a new instrument is introduced to the soundtrack and then later in the quiz
+								section those same sounds are used to reinforce each plant part.  An example of this
+								is shown in the video.
+								</br></br>
+							</p>
+						</div>
+					</div>
+					</br>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Along with the inital concept, similarly to the first game, an important
+								part of this game was the assessment.  This was also accomplished in two
+								ways.
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The first was through the certificate activity. Like the previous game,
+									the certificate served both to assess completion and as a fun takeaway for
 									the students. For this game, the actvity was to create their own plant.
 									They had the option to pick a design for each part of the plant.
 									The storyboard and the completed product are shown below.
-									</li>
-									</br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The second was also through custom events during the game.  I designed and developed 
-									the framework of the game to be able to collect information for things such as 
-									what incorrect answers a student was clicking, to get a better idea of what foods 
-									children found most confusing.</li>
-									</br>
-									</ul>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/p04.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/p05.gif" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/p06.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							</br>
-
-							<header id="myplate">
-								<p>Gill's Diner: MyPlate Food Groups</p>
-							</header>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/g01.jpg" alt="" /></a>
-									</article>
-									<video class="image fit" controls>
-										<source src="images/nutrition/g02.mp4" type="video/mp4"></a>
-									</video>
-								</div>
-								<div class="col-8 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									For this game I came up with the original concept.  To change things up with 
-									how the game would be played, I wanted to use a drag and drop concept rather 
-									than clicking the correct option.  For this game, I decided to have the food 
-									be dragged onto the plate into the correct food group.  With one of the 
-									introductory prompts being about smiling, I also wanted the mascot to be a 
-									shark for its many teeth.  Since the concept was about building plates using
-									the myPlate food groups, I also wanted him to be a chef.
-									</br></br>
-
-									With this information our lead designer, came up with the concept of the shark
-									working in a diner to build the plates.  He worked with me to rework the UI and
-									the story so that it hit all the points I scoped and would also be fast to develop.
-									The first concept sketch and the final product are shown. 
-									</p>
-								</div>
-							</div>
-							</br>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Along with the inital concept, similarly to the other games, an important
-									part of this game was the assessment.  This was also accomplished in two 
-									ways.
-									</br></br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The first was through the certificate activity. Like the previous games, 
-									the certificate served both to assess completion and as a fun takeaway for 
-									the students. For this game, the actvity was to create a menu for the diner.
-									For this menu, they would be picking a daily special for each food category. 
-									The storyboard and the completed product are shown below.
-									</li>
-									</br>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									The second was also through custom events during the game.  I designed and developed 
-									the framework of the game to be able to collect information for things such as 
-									what incorrect answers a student was selecting, to get a better idea of what foods 
-									children found most confusing.  Unlike the other games, answers get eliminated as 
-									the game is played, so to still collect information, the order of the foods was 
-									randomized and collected.</li>
-									</br>
-									</ul>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/g03.png" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/g04.gif" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/g05.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							</br>
-
-							<header>
-								<p>Additional Storyboards</p>
-							</header>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Below are some screenshots from storyboards I worked on, for three of the other 
-									games in the series.  They include basic game mechanics and game flows.</ul>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/h01.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/r01.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/k01.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/h02.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/r02.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/k02.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/h03.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/r03.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/nutrition/k03.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-
-							<footer>
-								<a href="grid.html" class="button scrolly">Back to project list.</a>
-							</footer>
-
+								</li>
+								</br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The second was also through custom events during the game.  I designed and developed
+									the framework of the game to be able to collect information for things such as
+									what incorrect answers a student was clicking, to get a better idea of what foods
+									children found most confusing.
+								</li>
+								</br>
+							</ul>
 						</div>
-					</section>
+					</div>
 
-			</div>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/p04.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/p05.gif" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/p06.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
+
+					<header id="myplate">
+						<p>Gill's Diner: MyPlate Food Groups</p>
+					</header>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/g01.jpg" alt="" /></a>
+							</article>
+							<video class="image fit" controls>
+								<source src="images/nutrition/g02.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-8 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								For this game I came up with the original concept.  To change things up with
+								how the game would be played, I wanted to use a drag and drop concept rather
+								than clicking the correct option.  For this game, I decided to have the food
+								be dragged onto the plate into the correct food group.  With one of the
+								introductory prompts being about smiling, I also wanted the mascot to be a
+								shark for its many teeth.  Since the concept was about building plates using
+								the myPlate food groups, I also wanted him to be a chef.
+								</br></br>
+
+								With this information our lead designer, came up with the concept of the shark
+								working in a diner to build the plates.  He worked with me to rework the UI and
+								the story so that it hit all the points I scoped and would also be fast to develop.
+								The first concept sketch and the final product are shown.
+							</p>
+						</div>
+					</div>
+					</br>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Along with the inital concept, similarly to the other games, an important
+								part of this game was the assessment.  This was also accomplished in two
+								ways.
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The first was through the certificate activity. Like the previous games,
+									the certificate served both to assess completion and as a fun takeaway for
+									the students. For this game, the actvity was to create a menu for the diner.
+									For this menu, they would be picking a daily special for each food category.
+									The storyboard and the completed product are shown below.
+								</li>
+								</br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									The second was also through custom events during the game.  I designed and developed
+									the framework of the game to be able to collect information for things such as
+									what incorrect answers a student was selecting, to get a better idea of what foods
+									children found most confusing.  Unlike the other games, answers get eliminated as
+									the game is played, so to still collect information, the order of the foods was
+									randomized and collected.
+								</li>
+								</br>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/g03.png" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/g04.gif" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/g05.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
+
+					<header>
+						<p>Additional Storyboards</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Below are some screenshots from storyboards I worked on, for three of the other
+								games in the series.  They include basic game mechanics and game flows.
+							</ul>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/h01.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/r01.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/k01.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/h02.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/r02.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/k02.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/h03.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/r03.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/nutrition/k03.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+
+					<footer>
+						<a href="grid.html" class="button scrolly">Back to project list.</a>
+					</footer>
+
+				</div>
+			</section>
+
+		</div>
 
 		</div>
 
 		<!-- Footer -->
-			<div id="footer">
+		<div id="footer">
 
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Rangoli Mittal
-					<script>document.write(new Date().getFullYear())</script> All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

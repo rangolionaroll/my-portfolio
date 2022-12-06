@@ -12,240 +12,204 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="nav-placeholder">
 
-				<div class="top">
+		</div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="./images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Rangoli Mittal</h1>
-							<p>Game Designer and Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="" id="projects-link" style="pointer-events: none;"><span class="icon solid fa-th">Projects</span></a>
-									<ul>
-										<li><a href="grid.html" id="contact-link"><span class="icon solid fa-gamepad">Rutgers GRID</span></a></li>
-										<li><a href="projects.html" id="contact-link"><span class="icon solid fa-box-open">Independent</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="volunteer-link" style="pointer-events: none;"><span class="icon solid fa-hands-helping">Volunteering</span></a>
-									<ul>
-										<li><a href="seeingeye.html" id="contact-link"><span class="icon solid fa-dog">The Seeing Eye</span></a></li>
-										<li><a href="singforhope.html" id="contact-link"><span class="icon solid fa-brush">Sing For Hope</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="hobbies-link" style="pointer-events: none;"><span class="icon solid fa-boxes">Hobbies</span></a>
-									<ul>
-										<li><a href="photography.html" id="contact-link"><span class="icon solid fa-camera-retro">Photography</span></a></li>
-										<li><a href="crochet.html" id="contact-link"><span class="icon solid fa-mitten">Crochet</span></a></li>
-									</ul>
-								</li>
-								<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/rangolionaroll/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/rangoli-mittal/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:ranmittal717@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
 
-							<header>
-								<p><strong>Rutgers Online Learning Conference Games</strong><br/><br/>
-								This project consists of 2 games designed for the Rutgers Online Learning
-								Conference in 2019 and 2020.
-								<br/><br/> Roles: Designer, Developer</p>
-							</header>
-						</div>
-					</section>
+					<header>
+						<p>
+							<strong>Rutgers Online Learning Conference Games</strong><br /><br />
+							This project consists of 2 games designed for the Rutgers Online Learning
+							Conference in 2019 and 2020.
+							<br /><br /> Roles: Designer, Developer
+						</p>
+					</header>
+				</div>
+			</section>
 
-				<!-- Portfolio -->
-					<section id="projects" class="two">
-						<div class="container">
-							<header>
-								<p>2019</p>
-							</header>
+			<!-- Portfolio -->
+			<section id="projects" class="two">
+				<div class="container">
+					<header>
+						<p>2019</p>
+					</header>
 
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									This project was designed for conference attendees at the 2019 
-									Rutgers Online Learning Conference.  The theme of the conference was 
-									Education eXtended, so we designed the game to showcase extended 
-									reality.  We had a virtual reality, an augmented reality, and a real
-									life activity for the conference attendees to complete in order to enter a raffle.
-									They could also use the conference's mobile app to take pictures 
-									and submit them to a photo gallery for an extra raffle entry.
-									</br></br>
-									<li align="left" style="font-size:20px;line-height:150%;">
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								This project was designed for conference attendees at the 2019
+								Rutgers Online Learning Conference.  The theme of the conference was
+								Education eXtended, so we designed the game to showcase extended
+								reality.  We had a virtual reality, an augmented reality, and a real
+								life activity for the conference attendees to complete in order to enter a raffle.
+								They could also use the conference's mobile app to take pictures
+								and submit them to a photo gallery for an extra raffle entry.
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									For our VR activity, we set up a 360 camera inside
 									of a photobooth in which attendees could take a picture.  We also set up
 									these images to be seen on an Oculus Go.
-									</li>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									For our AR activity, I built a simple Vuforia set-up in Unity, in which 
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									For our AR activity, I built a simple Vuforia set-up in Unity, in which
 									attendees could hold up the game flyer and a die and particle system
 									would appear. They could move the flyer around to look at the different sides
 									of the die and figure out which side was hidden.
-									</li>
-									<li align="left" style="font-size:20px;line-height:150%;">
-									For our real life activity, we created conference cards based on the 
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									For our real life activity, we created conference cards based on the
 									"Sneaky Cards" game.  We added prompts such as "create a collaborative doodle"
-									that would get the players to pass on the cards to one another to promote 
+									that would get the players to pass on the cards to one another to promote
 									networking. Each attendee started out with two cards.
-									</li>
-									</br>
-									Some images from the conference are shown below.
-									</ul>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/01.png" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/04.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/02.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/05.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/07.png" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/03.png" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/06.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							</br>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									I tabled this event for the duration of the conference and interacted 
-									with many of the attendees who were curious about the game.  The largest 
-									thing that I had noticed was that because the prizes (Oculus Go, 360 camera)
-									were really cool, people wanted to enter the raffle, but they weren't as 
-									enthusiastic about playing the entire game.  Many people did the AR activity 
-									because it was quick.  Fewer people did the VR photobooth and even less
-									people wanted to use the conference card game.  Many came to the table and asked
-									if they could do the activity with us instead of talking to other conference 
-									attendees. We got them to form a group to do the activity and talk to each other.
-									What I noticed was that not many people wanted to go out of the way to do extra 
-									activities.  They were there for the workshops and certainly focused on those.
-									I took this to the team for the 2020 conference game which you can read about below.
-									</ul>
-								</div>
-							</div>
-
-							<header>
-								<p>2020</p>
-							</header>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Keeping this in mind, we planned for the 2020 conference.  The theme for the 
-									conference was "2020 Vision A View to the Future."  As part of our presentation
-									at the conference we talked about the game design process and an augmented reality
-									app that we had been working on.  As that app had been recieved well, we intended 
-									on showcasing augmented reality in the conference app as well.  We decided on a 
-									collection mechanic for the game in which attendees could scan different things and
-									add objects to their "virtual classroom."  To build on the story all of these objects
-									would be tools for teaching and learning. </br></br>Taking the feedback from last year, we knew
-									that the game would have to be incorporated into the main conference app and activties
-									so we outlined the things we would want to feature and promote. This included vendors,
-									workshops and networking.  We would give vendors an AR target that people could scan by
-									talking to them, have an AR target at the end of each workshop session, and include a 
-									small variety of AR targets on attendee badges.  In order to collect them all, attendees 
-									could ask if anyone had the object they were missing, and hopefully start a conversation.
-									By merely attending the conference and participating in the conference activities, users
-									could earn raffle tickets towards a prize.  Keeping in mind the 2020 vision theme, 
-									we decided to have 3 groups of tools as well, the past, present and future. I proposed that 
-									the story would follow attendees who all had tools from the past, eg. pencil, quill, typewriter.
-									They would talk to the vendors and collect tools from the present which is what the vendors 
-									offered.  Lastly, by attending the workshops they would get a glimpse into the future and 
-									collect future tools.
-									</br></br>
-									Unfortunately, the conference was moved virtually due to Covid and the game was cut.  However,
-									some brainstorming work is shown below.
-									</ul>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/ruonlinecon/08.png" alt="" /></a>
-									</article>
-								</div>
-							</div>
-
-							<footer>
-								<a href="grid.html" class="button scrolly">Back to project list.</a>
-							</footer>
-
+								</li>
+								</br>
+								Some images from the conference are shown below.
+							</ul>
 						</div>
-					</section>
+					</div>
 
-			</div>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/01.png" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/04.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/02.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/05.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/07.png" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/03.png" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/06.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								I tabled this event for the duration of the conference and interacted
+								with many of the attendees who were curious about the game.  The largest
+								thing that I had noticed was that because the prizes (Oculus Go, 360 camera)
+								were really cool, people wanted to enter the raffle, but they weren't as
+								enthusiastic about playing the entire game.  Many people did the AR activity
+								because it was quick.  Fewer people did the VR photobooth and even less
+								people wanted to use the conference card game.  Many came to the table and asked
+								if they could do the activity with us instead of talking to other conference
+								attendees. We got them to form a group to do the activity and talk to each other.
+								What I noticed was that not many people wanted to go out of the way to do extra
+								activities.  They were there for the workshops and certainly focused on those.
+								I took this to the team for the 2020 conference game which you can read about below.
+							</ul>
+						</div>
+					</div>
+
+					<header>
+						<p>2020</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Keeping this in mind, we planned for the 2020 conference.  The theme for the
+								conference was "2020 Vision A View to the Future."  As part of our presentation
+								at the conference we talked about the game design process and an augmented reality
+								app that we had been working on.  As that app had been recieved well, we intended
+								on showcasing augmented reality in the conference app as well.  We decided on a
+								collection mechanic for the game in which attendees could scan different things and
+								add objects to their "virtual classroom."  To build on the story all of these objects
+								would be tools for teaching and learning. </br></br>Taking the feedback from last year, we knew
+								that the game would have to be incorporated into the main conference app and activties
+								so we outlined the things we would want to feature and promote. This included vendors,
+								workshops and networking.  We would give vendors an AR target that people could scan by
+								talking to them, have an AR target at the end of each workshop session, and include a
+								small variety of AR targets on attendee badges.  In order to collect them all, attendees
+								could ask if anyone had the object they were missing, and hopefully start a conversation.
+								By merely attending the conference and participating in the conference activities, users
+								could earn raffle tickets towards a prize.  Keeping in mind the 2020 vision theme,
+								we decided to have 3 groups of tools as well, the past, present and future. I proposed that
+								the story would follow attendees who all had tools from the past, eg. pencil, quill, typewriter.
+								They would talk to the vendors and collect tools from the present which is what the vendors
+								offered.  Lastly, by attending the workshops they would get a glimpse into the future and
+								collect future tools.
+								</br></br>
+								Unfortunately, the conference was moved virtually due to Covid and the game was cut.  However,
+								some brainstorming work is shown below.
+							</ul>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/ruonlinecon/08.png" alt="" /></a>
+							</article>
+						</div>
+					</div>
+
+					<footer>
+						<a href="grid.html" class="button scrolly">Back to project list.</a>
+					</footer>
+
+				</div>
+			</section>
+
+		</div>
 
 		<!-- Footer -->
-			<div id="footer">
+		<div id="footer">
 
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Rangoli Mittal
-					<script>document.write(new Date().getFullYear())</script> All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

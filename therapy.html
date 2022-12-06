@@ -12,309 +12,275 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="nav-placeholder">
 
-				<div class="top">
+		</div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="./images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Rangoli Mittal</h1>
-							<p>Game Designer and Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-								<li><a href="" id="projects-link" style="pointer-events: none;"><span class="icon solid fa-th">Projects</span></a>
-									<ul>
-										<li><a href="grid.html" id="contact-link"><span class="icon solid fa-gamepad">Rutgers GRID</span></a></li>
-										<li><a href="projects.html" id="contact-link"><span class="icon solid fa-box-open">Independent</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="volunteer-link" style="pointer-events: none;"><span class="icon solid fa-hands-helping">Volunteering</span></a>
-									<ul>
-										<li><a href="seeingeye.html" id="contact-link"><span class="icon solid fa-dog">The Seeing Eye</span></a></li>
-										<li><a href="singforhope.html" id="contact-link"><span class="icon solid fa-brush">Sing For Hope</span></a></li>
-									</ul>
-								</li>
-								<li><a href="" id="hobbies-link" style="pointer-events: none;"><span class="icon solid fa-boxes">Hobbies</span></a>
-									<ul>
-										<li><a href="photography.html" id="contact-link"><span class="icon solid fa-camera-retro">Photography</span></a></li>
-										<li><a href="crochet.html" id="contact-link"><span class="icon solid fa-mitten">Crochet</span></a></li>
-									</ul>
-								</li>
-								<li><a href="aboutme.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://www.instagram.com/rangolionaroll/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.linkedin.com/in/rangoli-mittal/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:ranmittal717@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
 
 		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
 
-							<header>
-								<p><strong>Virtual Therapy Office</strong><br/><br/>
-								This project is a virtual worlds environment designed for the
-								Rutgers School of Social Work.
-								<br/><br/> Roles: 3D Artist, Designer, Developer</p>
-							</header>
+					<header>
+						<p>
+							<strong>Virtual Therapy Office</strong><br /><br />
+							This project is a virtual worlds environment designed for the
+							Rutgers School of Social Work.
+							<br /><br /> Roles: 3D Artist, Designer, Developer
+						</p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="projects" class="two">
+				<div class="container">
+					<header>
+						<p>Design & Development</p>
+					</header>
+
+					<div class="row">
+						<div class="col-2 col-0-mobile">
 						</div>
-					</section>
+						<div class="col-8 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/therapy/vid01.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+					</div>
+					</br>
 
-				<!-- Portfolio -->
-					<section id="projects" class="two">
-						<div class="container">
-							<header>
-								<p>Design & Development</p>
-							</header>
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								This project was designed as a roleplaying environment
+								for students in the Rutgers School of Social Work.  Using
+								the office and the waiting room, the students would be able to
+								immerse themselves in the virtual environment and practice their sessions.
+								This project has gone through many iterations, 2 of which I worked on.
+								</br> </br>
+								The first version created previously at GRID, using Unity is shown below.
+							</p>
+						</div>
+					</div>
 
-							<div class="row">
-								<div class="col-2 col-0-mobile">
-								</div>
-								<div class="col-8 col-12-mobile">
-									<video class="image fit" controls>
-										<source src="images/therapy/vid01.mp4" type="video/mp4"></a>
-									</video>
-								</div>
-							</div>
-							</br>
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/001.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/002.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/003.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
+					<header>
+						<p>Iteration 1</p>
+					</header>
 
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									This project was designed as a roleplaying environment
-									for students in the Rutgers School of Social Work.  Using 
-									the office and the waiting room, the students would be able to 
-									immerse themselves in the virtual environment and practice their sessions.
-									This project has gone through many iterations, 2 of which I worked on.
-									</br> </br>
-									The first version created previously at GRID, using Unity is shown below.
-									</p>
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/001.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/002.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/003.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-							</br>
-							<header>
-								<p>Iteration 1</p>
-							</header>
-
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Using my experience with 3D modeling and Unity I was 
-									asked to work on a few things including:
-									<li align="left" style="font-size:20px;line-height:150%;">
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Using my experience with 3D modeling and Unity I was
+								asked to work on a few things including:
+								<li align="left" style="font-size:20px;line-height:150%;">
 									Get rid of the clipping planes.
-									</li>
-									<li align="left" style="font-size:20px;line-height:150%;">
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									Make the environment outside more interesting.
-									</li>
-									<li align="left" style="font-size:20px;line-height:150%;">
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									Adjust the office and the waiting room to be warmer spaces.
-									</li>
-								</div>
-							</div>
+								</li>
+						</div>
+					</div>
 
-							<div class="row">
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/01.gif" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/02.jpg" alt="" /></a>
-									</article>
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/03.jpg" alt="" /></a>
-									</article>
-								</div>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/01.gif" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/02.jpg" alt="" /></a>
+							</article>
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/03.jpg" alt="" /></a>
+							</article>
+						</div>
 
-								<div class="col-6 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									To redesign this space, I looked at many different therapy office images 
-									as well as kept some of the objects from the original project.
-									</br></br>
-									For the technology behind this project, I used Unity to build the world
-									and add the player controller.  I used Autodesk Maya and Mudbox to create
-									3D models, textures, and to animate the objects.
-									</br></br>
-									<li align="left" style="font-size:20px;line-height:150%;">
+						<div class="col-6 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								To redesign this space, I looked at many different therapy office images
+								as well as kept some of the objects from the original project.
+								</br></br>
+								For the technology behind this project, I used Unity to build the world
+								and add the player controller.  I used Autodesk Maya and Mudbox to create
+								3D models, textures, and to animate the objects.
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									<strong> Get rid of the clipping planes. </strong></br>
-									The original project was created using different primitives that 
-									overlapped and caused clipping as the player walked around. When remaking 
-									the structure, I used Unity's ProBuilder.  With this I was able to 
+									The original project was created using different primitives that
+									overlapped and caused clipping as the player walked around. When remaking
+									the structure, I used Unity's ProBuilder.  With this I was able to
 									customize more complicated shapes within the same object to prevent clipping.
-									</li>
-									</br>
-									<li align="left" style="font-size:20px;line-height:150%;">
+								</li>
+								</br>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									<strong> Make the environment outside more interesting. </strong></br>
-									The original project had a more barren landscape, and buses that were 
+									The original project had a more barren landscape, and buses that were
 									stationary on the road.  When redoing the environment, I used Unity's
-									terrain builder, and skyboxes to add nature. Sticking to the original, I also added a 
-									road with a bus, but animated a loop in which it drives past the building. </li>
-									</br>
-									<li align="left" style="font-size:20px;line-height:150%;">
+									terrain builder, and skyboxes to add nature. Sticking to the original, I also added a
+									road with a bus, but animated a loop in which it drives past the building.
+								</li>
+								</br>
+								<li align="left" style="font-size:20px;line-height:150%;">
 									<strong> Adjust the interior to be warmer spaces. </strong></br>
-									I decided to go with yellow walls and add a warm color palette.  
-									I also added many objects to make the space feel more personal, some of which 
-									include stuffed animals (modeled after our office dogs' toys) next to the couch, 
+									I decided to go with yellow walls and add a warm color palette.
+									I also added many objects to make the space feel more personal, some of which
+									include stuffed animals (modeled after our office dogs' toys) next to the couch,
 									a tissue box on the coffee table and children's artwork on the shelf in the office
 									and an animated ceiling fan to add a calm ambiance.
-									</li>
-									</ul>
-								</div>
+								</li>
+							</ul>
+						</div>
 
-								<div class="row">
-								<div class="col-12 col-12-mobile">
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									Below are some of my notes and planning from Iteration 1's redesign.  It includes the floorplan, 
+						<div class="row">
+							<div class="col-12 col-12-mobile">
+								<ul align="left" style="font-size:20px;line-height:150%;">
+									Below are some of my notes and planning from Iteration 1's redesign.  It includes the floorplan,
 									objects and decorations, and a list of easter eggs from our department.  It also includes notes
-									about the technology used for future reference. </ul>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/Plan01.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/Plan02.jpg" alt="" /></a>
-									</article>
-								</div>
-								</div>
+									about the technology used for future reference.
+								</ul>
 							</div>
+							<div class="col-6 col-12-mobile">
+								<article class="item">
+									<a class="image fit"><img src="images/therapy/Plan01.jpg" alt="" /></a>
+								</article>
+							</div>
+							<div class="col-6 col-12-mobile">
+								<article class="item">
+									<a class="image fit"><img src="images/therapy/Plan02.jpg" alt="" /></a>
+								</article>
+							</div>
+						</div>
+					</div>
 
-							</br>
-							<header>
-								<p>Iteration 2</p>
-							</header>
+					</br>
+					<header>
+						<p>Iteration 2</p>
+					</header>
 
-							<div class="row">
-								<div class="col-12 col-12-mobile">
-									<p align="left" style="font-size:20px;line-height:150%;">
-									The most recent version as shown in the trailer above, was created after
-									we shifted our virtual worlds to Mozilla Hubs which is a browser based 
-									virtual world, which lets users create and publish their own virtual worlds.
-									<ul align="left" style="font-size:20px;line-height:150%;">
-									To bring the therapy office over to Mozilla Hubs, I had to reduce the amount 
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								The most recent version as shown in the trailer above, was created after
+								we shifted our virtual worlds to Mozilla Hubs which is a browser based
+								virtual world, which lets users create and publish their own virtual worlds.
+								<ul align="left" style="font-size:20px;line-height:150%;">
+									To bring the therapy office over to Mozilla Hubs, I had to reduce the amount
 									of objects and textures to make sure it would run on all devices.  The format
 									of the 3D models also had to be .glb to be compatible, so I used Blender.
 									</br></br>
 									<li align="left" style="font-size:20px;line-height:150%;">
-									I created the building in Blender and exported it to Mozilla Hubs. Due to the 
-									limitations on the number of objects, I decided to change the environment to 
-									be a single photosphere.  After trying a few realistic images, I took a 360 image
-									within the Unity build so that I could keep the atmosphere I had built in that version.
+										I created the building in Blender and exported it to Mozilla Hubs. Due to the
+										limitations on the number of objects, I decided to change the environment to
+										be a single photosphere.  After trying a few realistic images, I took a 360 image
+										within the Unity build so that I could keep the atmosphere I had built in that version.
 									</li>
 									</br>
 									<li align="left" style="font-size:20px;line-height:150%;">
-									With the objects inside of the building, I used many of the original objects and lowered
-									their polygon count in Blender.  Keeping some of the furniture, I remodeled the chairs since
-									the originals were very high in polygon count.  Many decorative objects were deleted, while 
-									the most prominent ones were kept. To fit this new world better, I added some features like
-									a painting by <a href="https://www.instagram.com/tejaswini.ap/">Tejaswini</a>, a warm rug
-									and a bulletin board linking to our other worlds.  
+										With the objects inside of the building, I used many of the original objects and lowered
+										their polygon count in Blender.  Keeping some of the furniture, I remodeled the chairs since
+										the originals were very high in polygon count.  Many decorative objects were deleted, while
+										the most prominent ones were kept. To fit this new world better, I added some features like
+										a painting by <a href="https://www.instagram.com/tejaswini.ap/">Tejaswini</a>, a warm rug
+										and a bulletin board linking to our other worlds.
 									</li>
 									</br>
-									While the first iteration had a lot of small touches, the new iteration was built to be 
-									a template that could be customized by the users.  They could add objects such as the stuffed 
-									animals to their liking.  Our team has since used and customized the Therapy Office many 
+									While the first iteration had a lot of small touches, the new iteration was built to be
+									a template that could be customized by the users.  They could add objects such as the stuffed
+									animals to their liking.  Our team has since used and customized the Therapy Office many
 									times for our virtual meetings.
-									</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/04.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/05.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/06.jpg" alt="" /></a>
-									</article>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<a class="image fit"><img src="images/therapy/07.jpg" alt="" /></a>
-									</article>
-								</div>
-							</div>
-
-							<footer>
-								<a href="grid.html" class="button scrolly">Back to project list.</a>
-							</footer>
-
+							</p>
 						</div>
-					</section>
+					</div>
 
-			</div>
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/04.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/05.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/06.jpg" alt="" /></a>
+							</article>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/therapy/07.jpg" alt="" /></a>
+							</article>
+						</div>
+					</div>
+
+					<footer>
+						<a href="grid.html" class="button scrolly">Back to project list.</a>
+					</footer>
+
+				</div>
+			</section>
+
+		</div>
 
 
 		<!-- Footer -->
-			<div id="footer">
+		<div id="footer">
 
-				<!-- Copyright -->
-				<ul class="copyright">
-					<li>&copy; Rangoli Mittal
-					<script>document.write(new Date().getFullYear())</script> All rights reserved.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
 
-			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
