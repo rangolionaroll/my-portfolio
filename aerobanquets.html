@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Rangoli Mittal Portfolio</title>
+		<base href="https://rangolionaroll.github.io/my-portfolio/">
+		<link rel="shortcut icon" type="image/jpg" href="./images/avatar.jpg"/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="nav-placeholder">
+
+		</div>
+
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+
+					<header>
+						<p>
+							<strong>Aerobanquets RMX</strong><br /><br />
+							A virtual reality dining experience presented by Superblue Miami and Meta Open Arts as during Miami Art Week in November 2022.
+							<br /><br /> Role: Developer
+						</p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="projects" class="two">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-0-mobile">
+						</div>
+						<div class="col-4 col-12-mobile">
+							<article class="item">
+								<a class="image fit"><img src="images/aerobanquets/coverimg.png" alt="" /></a>
+							</article>
+						</div>
+					</div>
+					</br>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								Aerobanquets RMX is a virtual-reality art and culinary experience created by artist Mattia Casalegno
+								in collaboration with Michelin-starred chef Chintan Pandya of Semma, Dhamaka, and Adda in New York.
+								Aerobanquets RMX is an immersive, multisensorial, multicourse meal where guests explore, eat, and
+								engage with a virtual world.  Read more about the experience <a href="https://www.aerobanquets.com/">here.</a>
+								</br> </br>
+								This was my first project at Pariah Interactive and was a 6-week long project.  This project was built in
+								Unity using Leap Motion for hand tracking and Meta Quest 2 as the virtual reality headset. Before this project
+								most of my experience had been with developing a project from scratch, based on a storyboard or design.
+								This was the first project in my professional career where I had to pick up from where someone else left off
+								and add to their work, which involved a lot of structuring the flow and architecture of the project, and diving
+								into Unity Timelines, to try to create a seamless experience.
+							</p>
+						</div>
+					</div>
+					</br>
+
+					<header>
+						<p>Eating Detection</p>
+					</header>
+
+					<div class="row">
+						<div class="col-4 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/aerobanquets/eatingdetection.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+
+						<div class="col-8 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								Along with restructuring the flow and architecture of the project
+								I got to work on a few cool interactions using the Leap Motion and
+								Quest Controllers.  One of which was eating detection.  Previously,
+								servers would place the food on each user’s plate and then after the user
+								had eaten, they would press a button to progress the experience. </br></br>
+								To automate this, and reduce the server’s workload, I added a detection
+								feature where the proximity of the plate (Quest controller) and the mouth
+								(Quest headset) would be checked along with the inclination of both, as
+								most users would pick up the plate, bring it to their mouth and then
+								tilt it back to drop the food in.  To do this, I did various trials with
+								foods such as trail mix, chocolate and snacks and recorded the inclination
+								and distance at the moment the food fell into my mouth.  Based on these
+								values I was able to isolate the axis on which the controller and headset
+								tilted as well as determine a range for the values of rotation and distance.
+								I did learn that I eat at a higher angle than many of my coworkers so I
+								had to iterate on the range after doing QA tests with them but eventually
+								got to a reliable range.
+							</ul>
+						</div>
+					</div>
+
+					</br>
+					<header>
+						<p>Hand Interactions</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								Using the leap motion, I mainly focused on two different types of interactions.
+								One of which was grabbing and throwing jelly-like objects and the other being
+								objects floating away from the user as they approached them.  Using Leap Motion’s
+								built in interaction system, most of my work was changing the physics on the
+								objects themselves.  To grab and throw jelly-like objects I used Unity’s soft body
+								physics system.  </br></br> The pushing objects away on hover was more interesting because I
+								tried to get the direction of the force being applied based on the direction of the
+								hand and settled on focusing on the index finger as I found the usual approach
+								people took with interacting with a floating object would be to poke it first and and
+								also used <a href="https://github.com/keijiro/ProceduralMotion">Keijiro’s Procedural Motion</a>
+								package to add some movement before the person interacted with the objects.
+								I was able to apply this script to a variety of objects as shown below.
+							</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/aerobanquets/vid1.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/aerobanquets/vid2.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/aerobanquets/vid3.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/aerobanquets/vid4.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+					</div>
+					</br></br>
+
+					<header>
+						<p>Press</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								Read what people had to say about the experience!
+								<ul align="left" style="font-size:20px;line-height:150%;">
+									<li align="left" style="font-size:20px;line-height:150%;">
+										<a href="https://www.nbcmiami.com/multimedia/it-was-magical-mixed-reality-dining-experience-presented-at-superblue-during-miami-art-week/2920155/">NBC Miami: ‘It Was Magical': Mixed-Reality Dining Experience Presented at Superblue During Miami Art Week</a>
+									</li>
+									</br>
+									<li align="left" style="font-size:20px;line-height:150%;">
+										<a href="https://www.nbcmiami.com/entertainment/6-in-the-mix/one-of-a-kind-dining-experience-2/2919833/">NBC Miami: One of a Kind Dining Experience</a>
+									</li>
+									</br>
+									<li align="left" style="font-size:20px;line-height:150%;">
+										<a href="https://coolhunting.com/culture/miami-art-week-2022-artist-mattia-casalegnos-aerobanquets-rmx-at-superblue/ ">Cool Hunting: Miami Art Week 2022: Artist Mattia Casalegno’s “Aerobanquets RMX” at Superblue</a>
+									</li>
+									</br>
+									<li align="left" style="font-size:20px;line-height:150%;">
+										<a href="https://www.miaminewtimes.com/restaurants/art-vr-and-culinary-loaded-aerobanquets-rmx-experience-lands-at-superblue-for-miami-art-week-15766839">Miami New Times: Art, VR, and Culinary-Loaded Aerobanquets RMX Experience Lands at Superblue for Miami Art Week</a>
+									</li>
+									</br>
+								</ul>
+							</p>
+						</div>
+					</div>
+
+					<footer>
+						<a href="pariah.html" class="button scrolly">Back to project list.</a>
+					</footer>
+
+				</div>
+			</section>
+
+		</div>
+
+
+		<!-- Footer -->
+		<div id="footer">
+
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
