@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Rangoli Mittal Portfolio</title>
+		<meta name="robots" content="noindex">
+		<base href="https://rangolionaroll.github.io/my-portfolio/">
+		<link rel="shortcut icon" type="image/jpg" href="./images/avatar.jpg"/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<div id="nav-placeholder">
+
+		</div>
+
+		<script>
+			$(function () {
+				$("#nav-placeholder").load("nav.html");
+			});
+		</script>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="top" class="one dark cover">
+				<div class="container">
+
+					<header>
+						<p>
+							<strong>Robot Simulation</strong><br /><br />
+							A robot simulation in Unity to view human-robot interaction scenarios.
+							<br /><br /> Role: Developer
+						</p>
+					</header>
+				</div>
+			</section>
+
+			<!-- Portfolio -->
+			<section id="projects" class="two">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								This project is another project I completed as a contract developer.  It is a simulation that shows
+								how a robot would interact in real life as a quick prototype before actual implementation.  The main
+								idea that the clients wanted to test was how the robot would interact with humans and potentially respond
+								in scenarios such as a human waving or getting too close to it.
+							</p>
+						</div>
+					</div>
+
+					<header>
+						<p>Robot Logic</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<ul align="left" style="font-size:20px;line-height:150%;">
+								The main part of the project that I worked on was the logic for the robot, mainly programming the
+								movements and reactions that the robot was supposed to display.  The base movements and animations include:
+								</br></br>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Start-up at a certain location.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Locate the nearest table.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Navigate to the table.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Face the table and wipe until clean.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Repeat this process for all tables.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Navigate back to a certain location.
+								</li>
+								<li align="left" style="font-size:20px;line-height:150%;">
+									Shut-Down.
+								</li>
+								</br>
+								Most of the wayfinding logic was completed using Unity’s NavMesh component to create a walkable surface area and then
+								setting up waypoints for the places the robot was to navigate to.  As some tables were longer than other tables,
+								they all contained several waypoints for the robot to stop at and wipe before moving on to the next table.
+								At each waypoint, the robot would shoot a raycast towards the table and get the normal of the surface so it
+								could properly position itself to face the table.
+								</br></br>
+								Next was the interaction that the robot would have with humans that were present in the environment.  The robot has two sensors, 
+								one which has a shorter radius, but a larger distance and one that is the reverse.  If someone was in the field-of-view 
+								of the first sensor, the robot would nod at them or wave if they waved.  If they approached the robot and got close 
+								enough to the second field-of-view, the robot would communicate that they were too close.  One thing that I found was 
+								that having the robot’s neck animated in the “too close” animation prevented me from programming the neck to turn to 
+								face the person when nodding.  Even though the animation was inactive, having it in the animator caused the joint to
+								be stuck.  In order to solve this, I used the legacy animation system for the “too close” scenario, while using the 
+								animator component for everything else.
+							</ul>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/robo/robo1.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/robo/robo2.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+					</div>
+
+					</br>
+					<header>
+						<p>User Interface</p>
+					</header>
+
+					<div class="row">
+						<div class="col-12 col-12-mobile">
+							<p align="left" style="font-size:20px;line-height:150%;">
+								The second component that I worked on was the UI using Unity’s UI features.  
+								This included a fully navigable menu with clickable breadcrumbs, sliders to 
+								customise speed and the field-of-view, and sound customization options that 
+								instantiate when the game is played.
+							</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/robo/robo3.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+						<div class="col-6 col-12-mobile">
+							<video class="image fit" controls>
+								<source src="images/robo/robo4.mp4" type="video/mp4"></a>
+							</video>
+						</div>
+					</div>
+
+					<footer>
+						<a href="projects.html" class="button scrolly">Back to project list.</a>
+					</footer>
+
+				</div>
+			</section>
+
+		</div>
+
+
+		<!-- Footer -->
+		<div id="footer">
+
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>
+					&copy; Rangoli Mittal
+					<script>document.write(new Date().getFullYear())</script> All rights reserved.
+				</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
